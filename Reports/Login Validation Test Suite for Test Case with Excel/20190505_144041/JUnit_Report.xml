@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Validation Test Suite for Test Case with Excel" time="273" tests="15" failures="1" errors="0">
+   <testsuite name="Login Validation Test Suite for Test Case with Excel" tests="15" failures="1" errors="0" time="273" timestamp="2019-05-05 14:40:47" hostname="AHMAS014 - WX-5CG9071ZMF.wdw.disney.com" id="Test Suites/Login Validation Test Suite for Test Case with Excel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ahmas014\\git\\Katalon-Smoke-Test\\Reports\\Login Validation Test Suite for Test Case with Excel\\20190505_144041"/>
+         <property name="logFiles" value="C:\\Users\\ahmas014\\git\\Katalon-Smoke-Test\\Reports\\Login Validation Test Suite for Test Case with Excel\\20190505_144041\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ahmas014\\git\\Katalon-Smoke-Test\\Reports\\Login Validation Test Suite for Test Case with Excel\\20190505_144041\\1557081873344.png"/>
+         <property name="hostName" value="AHMAS014 - WX-5CG9071ZMF.wdw.disney.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.75"/>
+         <property name="hostAddress" value="10.25.116.64"/>
+         <property name="sessionId" value="2b5f76b7062991bdb71104886165ad13"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:40:47 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:40:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:40:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:40:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-05 14:40:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:40:55 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:40:57 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:40:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'Tim.Timenterer@disney.com
+' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:40:58 - [MESSAGE][PASSED] - Text 'Tim.Timenterer@disney.com
+' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:40:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:40:59 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:41:05 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:41:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:41:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:41:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:41:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:41:10 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:12 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'Curt.Contractor@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:12 - [MESSAGE][PASSED] - Text 'Curt.Contractor@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:13 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:41:19 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:41:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:41:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:41:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:41:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:41:24 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:26 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'Patty.ProjectManager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:27 - [MESSAGE][PASSED] - Text 'Patty.ProjectManager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0319' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:27 - [MESSAGE][PASSED] - Text 'clarity0319' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:41:34 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:41:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:41:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:41:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:41:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:41:39 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:42 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'Ralph.ResourceManager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:42 - [MESSAGE][PASSED] - Text 'Ralph.ResourceManager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:43 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:41:50 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:41:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:41:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:41:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:41:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:41:54 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:56 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:41:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'Phil.projectcreator@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:57 - [MESSAGE][PASSED] - Text 'Phil.projectcreator@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:58 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:42:05 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:42:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:42:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:42:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:42:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:42:10 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:13 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'financial.resourcemanager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:42:14 - [MESSAGE][PASSED] - Text 'financial.resourcemanager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:42:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:42:14 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:42:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:42:22 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:42:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:42:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:42:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:42:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:42:27 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:29 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'vmo@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:42:30 - [MESSAGE][PASSED] - Text 'vmo@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:42:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:42:30 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:42:37 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:42:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:42:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:42:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:42:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:42:42 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:44 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'digital.finance@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:42:45 - [MESSAGE][PASSED] - Text 'digital.finance@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:42:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:42:45 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:42:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:42:52 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:42:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:42:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:42:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:42:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:42:56 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:59 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:42:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'department.admin@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:00 - [MESSAGE][PASSED] - Text 'department.admin@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:00 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:43:07 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:43:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:43:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:43:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:43:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:43:11 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:13 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'digital.rm@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:14 - [MESSAGE][PASSED] - Text 'digital.rm@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:14 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:43:21 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:43:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:43:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:43:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:43:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:43:26 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:29 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'digital.pm@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:29 - [MESSAGE][PASSED] - Text 'digital.pm@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:30 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:43:37 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:43:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:43:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:43:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:43:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:43:42 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:45 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'reporting.only@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:45 - [MESSAGE][PASSED] - Text 'reporting.only@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:46 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login Validation Test Case with Excel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Validation Test Case with Excel.run(Login Validation Test Case with Excel:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557081641456.run(TempTestSuite1557081641456.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1557079314604.run(Script1557079314604.groovy:28)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-05 14:43:52 - [TEST_CASE][FAILED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Validation Test Case with Excel.run(Login Validation Test Case with Excel:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557081641456.run(TempTestSuite1557081641456.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1557079314604.run(Script1557079314604.groovy:28)
+	... 13 more
+
+
+2019-05-05 14:43:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:43:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:43:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:43:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:43:57 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:59 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:43:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'agility.coach@disney.com ' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:44:00 - [MESSAGE][PASSED] - Text 'agility.coach@disney.com ' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:44:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:44:00 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:44:01 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Validation Test Case with Excel.run(Login Validation Test Case with Excel:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557081641456.run(TempTestSuite1557081641456.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1557079314604.run(Script1557079314604.groovy:28)
+	... 13 more
+)
+
+2019-05-05 14:44:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-05 14:44:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Validation Test Case with Excel.run(Login Validation Test Case with Excel:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557081641456.run(TempTestSuite1557081641456.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1557079314604.run(Script1557079314604.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\ahmas014\\git\\Katalon-Smoke-Test\\Reports\\Login Validation Test Suite for Test Case with Excel\\20190505_144041\\1557081873344.png]]]]></system-out>
+         <system-err><![CDATA[2019-05-05 14:43:52 - [TEST_CASE][FAILED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Validation Test Case with Excel.run(Login Validation Test Case with Excel:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557081641456.run(TempTestSuite1557081641456.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1557079314604.run(Script1557079314604.groovy:28)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:44:34 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:44:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:44:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:44:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:44:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:44:40 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:44:42 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:44:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'kris.portfoliomanager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:44:43 - [MESSAGE][PASSED] - Text 'kris.portfoliomanager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity042019' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:44:43 - [MESSAGE][PASSED] - Text 'clarity042019' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:44:50 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:44:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:44:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:44:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:44:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:44:54 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:44:57 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'kevin.ideamanager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:44:57 - [MESSAGE][PASSED] - Text 'kevin.ideamanager@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0219' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:44:58 - [MESSAGE][PASSED] - Text 'clarity0219' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Validation Test Case with Excel" classname="Test Cases/Login Validation Test Case with Excel" status="PASSED">
+         <system-out><![CDATA[2019-05-05 14:45:04 - [TEST_CASE][PASSED] - Test Cases/Login Validation Test Case with Excel: Test Cases/Login Validation Test Case with Excel
+
+2019-05-05 14:45:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 14:45:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 14:45:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 14:45:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 14:45:09 - [TEST_STEP][PASSED] - navigateToUrl("https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"): Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:45:11 - [MESSAGE][PASSED] - Navigate to 'https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination' successfully
+
+2019-05-05 14:45:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login"), varEmailAddress): Text 'elise.itdesigntrainer@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:45:12 - [MESSAGE][PASSED] - Text 'elise.itdesigntrainer@disney.com' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login'
+
+2019-05-05 14:45:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password"), varPassword): Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:45:12 - [MESSAGE][PASSED] - Text 'clarity0419' is set on object 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password'
+
+2019-05-05 14:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input")): Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input' is clicked on
+
+2019-05-05 14:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test")): Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' is clicked on
+
+2019-05-05 14:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout")): Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on
+
+2019-05-05 14:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-05 14:40:47 - [TEST_SUITE][FAILED] - Login Validation Test Suite for Test Case with Excel: Test Cases/Login Validation Test Case with Excel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Validation Test Case with Excel.run(Login Validation Test Case with Excel:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557081641456.run(TempTestSuite1557081641456.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1557079314604.run(Script1557079314604.groovy:28)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-05-05 14:40:47 - [TEST_SUITE][FAILED] - Login Validation Test Suite for Test Case with Excel: Test Cases/Login Validation Test Case with Excel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Login Validation Test Case with Excel.run(Login Validation Test Case with Excel:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557081641456.run(TempTestSuite1557081641456.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test' located by 'By.xpath: //div[@id='portlet-wrapper-EXT_6']/div[2]/div/div/form/table/tbody/tr[3]/td/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1557079314604.run(Script1557079314604.groovy:28)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>
