@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>May 5th Excel TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2191be00-66de-447d-8c3b-0415ac6cc9d7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>634dfb52-ab52-4b2d-a455-20425cbecd1b</id>
+      <masked>false</masked>
+      <name>varEmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8ef87446-f6cd-4b65-b734-f8e656b50b6c</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>

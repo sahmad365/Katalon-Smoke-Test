@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Validation Test Case with Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f30cafa9-675a-479c-b9f0-d61d47e01c47</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>185b8228-f32a-48ff-8116-38c333d968e2</id>
+      <masked>false</masked>
+      <name>varEmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7027cba6-463d-4724-a292-1d314e942ac0</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>
