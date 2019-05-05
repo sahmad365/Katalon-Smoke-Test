@@ -1,0 +1,145 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Validation Test Suite for Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:40:47,2019-05-05 14:45:20,4m - 33.067s,FAILED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:40:47,2019-05-05 14:41:05,17.688s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:40:48,2019-05-05 14:40:55,7.089s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:40:55,2019-05-05 14:40:57,2.151s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:40:57,2019-05-05 14:40:58,1.124s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:40:58,2019-05-05 14:40:59,0.339s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:40:59,2019-05-05 14:41:00,1.066s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:00,2019-05-05 14:41:02,1.868s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:02,2019-05-05 14:41:05,3.190s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:41:05,2019-05-05 14:41:19,14.270s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:41:05,2019-05-05 14:41:10,4.722s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:41:10,2019-05-05 14:41:12,2.156s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:41:12,2019-05-05 14:41:12,0.621s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:41:12,2019-05-05 14:41:13,0.428s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:13,2019-05-05 14:41:14,1.364s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:14,2019-05-05 14:41:16,1.727s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:16,2019-05-05 14:41:19,3.223s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:41:19,2019-05-05 14:41:34,14.910s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:41:19,2019-05-05 14:41:24,4.785s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:41:24,2019-05-05 14:41:26,2.068s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:41:26,2019-05-05 14:41:27,0.638s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:41:27,2019-05-05 14:41:27,0.329s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:27,2019-05-05 14:41:28,1.077s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:28,2019-05-05 14:41:30,2.036s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:30,2019-05-05 14:41:34,3.952s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:41:34,2019-05-05 14:41:50,15.713s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:41:34,2019-05-05 14:41:39,5.107s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:41:39,2019-05-05 14:41:42,2.353s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:41:42,2019-05-05 14:41:42,0.798s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:41:42,2019-05-05 14:41:43,0.463s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:43,2019-05-05 14:41:44,1.367s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:44,2019-05-05 14:41:46,2.321s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:46,2019-05-05 14:41:50,3.282s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:41:50,2019-05-05 14:42:05,15.123s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:41:50,2019-05-05 14:41:54,4.447s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:41:54,2019-05-05 14:41:56,2.147s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:41:56,2019-05-05 14:41:57,1.014s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:41:57,2019-05-05 14:41:58,0.455s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:58,2019-05-05 14:41:59,1.198s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:41:59,2019-05-05 14:42:01,2.039s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:01,2019-05-05 14:42:05,3.801s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:42:05,2019-05-05 14:42:22,16.857s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:42:05,2019-05-05 14:42:10,5.161s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:42:10,2019-05-05 14:42:13,2.501s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:42:13,2019-05-05 14:42:14,1.007s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:42:14,2019-05-05 14:42:14,0.639s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:14,2019-05-05 14:42:16,1.424s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:16,2019-05-05 14:42:18,2.129s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:18,2019-05-05 14:42:22,3.978s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:42:22,2019-05-05 14:42:37,15.609s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:42:22,2019-05-05 14:42:27,4.873s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:42:27,2019-05-05 14:42:29,2.415s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:42:29,2019-05-05 14:42:30,0.486s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:42:30,2019-05-05 14:42:30,0.410s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:30,2019-05-05 14:42:31,1.079s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:31,2019-05-05 14:42:33,2.374s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:33,2019-05-05 14:42:37,3.951s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:42:37,2019-05-05 14:42:52,14.213s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:42:37,2019-05-05 14:42:42,4.748s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:42:42,2019-05-05 14:42:44,2.142s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:42:44,2019-05-05 14:42:45,0.769s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:42:45,2019-05-05 14:42:45,0.344s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:45,2019-05-05 14:42:47,1.137s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:47,2019-05-05 14:42:48,1.847s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:42:48,2019-05-05 14:42:52,3.210s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:42:52,2019-05-05 14:43:07,14.941s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:42:52,2019-05-05 14:42:56,4.779s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:42:56,2019-05-05 14:42:59,2.412s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:42:59,2019-05-05 14:43:00,0.972s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:43:00,2019-05-05 14:43:00,0.395s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:00,2019-05-05 14:43:01,1.104s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:01,2019-05-05 14:43:03,1.779s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:03,2019-05-05 14:43:07,3.486s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:43:07,2019-05-05 14:43:21,14.197s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:43:07,2019-05-05 14:43:11,4.810s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:43:11,2019-05-05 14:43:13,2.112s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:43:13,2019-05-05 14:43:14,0.492s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:43:14,2019-05-05 14:43:14,0.332s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:14,2019-05-05 14:43:15,0.987s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:15,2019-05-05 14:43:17,1.788s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:17,2019-05-05 14:43:21,3.656s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:43:21,2019-05-05 14:43:37,15.845s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:43:21,2019-05-05 14:43:26,4.827s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:43:26,2019-05-05 14:43:29,3.151s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:43:29,2019-05-05 14:43:29,0.512s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:43:29,2019-05-05 14:43:30,0.350s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:30,2019-05-05 14:43:31,1.197s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:31,2019-05-05 14:43:33,1.811s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:33,2019-05-05 14:43:37,3.970s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:43:37,2019-05-05 14:43:52,15.638s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:43:37,2019-05-05 14:43:42,5.758s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:43:42,2019-05-05 14:43:45,2.239s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:43:45,2019-05-05 14:43:45,0.607s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:43:45,2019-05-05 14:43:46,0.359s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:46,2019-05-05 14:43:47,1.117s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:47,2019-05-05 14:43:49,1.875s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:43:49,2019-05-05 14:43:52,3.663s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:43:52,2019-05-05 14:44:34,41.676s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:43:52,2019-05-05 14:43:57,4.249s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:43:57,2019-05-05 14:43:59,2.759s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:43:59,2019-05-05 14:44:00,0.640s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:44:00,2019-05-05 14:44:00,0.444s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:44:00,2019-05-05 14:44:01,0.713s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:44:01,2019-05-05 14:44:34,32.763s,FAILED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:44:34,2019-05-05 14:44:50,15.598s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:44:34,2019-05-05 14:44:40,5.659s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:44:40,2019-05-05 14:44:42,2.739s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:44:42,2019-05-05 14:44:43,0.632s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:44:43,2019-05-05 14:44:43,0.377s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:44:43,2019-05-05 14:44:44,1.082s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:44:44,2019-05-05 14:44:46,1.795s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:44:46,2019-05-05 14:44:50,3.294s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:44:50,2019-05-05 14:45:04,14.107s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:44:50,2019-05-05 14:44:54,4.885s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:44:54,2019-05-05 14:44:57,2.112s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:44:57,2019-05-05 14:44:57,0.646s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:44:57,2019-05-05 14:44:58,0.369s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:44:58,2019-05-05 14:44:59,1.037s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:44:59,2019-05-05 14:45:00,1.794s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:45:00,2019-05-05 14:45:04,3.240s,PASSED
+,,,,,,,
+Test Cases/Login Validation Test Case with Excel,Chrome 73.0.3683.75,,,2019-05-05 14:45:04,2019-05-05 14:45:18,14.391s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,,2019-05-05 14:45:04,2019-05-05 14:45:09,5.194s,PASSED
+"navigateToUrl(""https://ondemand.ca.com/web/portal/login?TYPE=33554433&REALMOID=06-000ef9db-0146-19ef-9589-0194ac184032&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-U2oxHNw%2fhwkS9d8eFxBR4kd609FfW4%2b3jBM0jHQpPFSdBOnBEsclAUJfVaZnAfcL&TARGET=-SM-https%3a%2f%2fondemand%2eca%2ecom%2fweb%2fselect%2fdestination"")",Chrome 73.0.3683.75,,,2019-05-05 14:45:09,2019-05-05 14:45:11,2.126s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Email Address__58_login""), varEmailAddress)",Chrome 73.0.3683.75,,,2019-05-05 14:45:11,2019-05-05 14:45:12,0.725s,PASSED
+"setText(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input_Password__58_password""), varPassword)",Chrome 73.0.3683.75,,,2019-05-05 14:45:12,2019-05-05 14:45:12,0.391s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_Sign In - cacom/input""))",Chrome 73.0.3683.75,,,2019-05-05 14:45:12,2019-05-05 14:45:13,1.109s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_My Places - cacom/a_WDPR Tomorrowland - Test""))",Chrome 73.0.3683.75,,,2019-05-05 14:45:13,2019-05-05 14:45:15,1.710s,PASSED
+"click(findTestObject(""Object Repository/Login-TimeTimeEnter/Page_PPM - Last Refreshed on 4222019  Overview General/a_Logout""))",Chrome 73.0.3683.75,,,2019-05-05 14:45:15,2019-05-05 14:45:18,3.119s,PASSED
